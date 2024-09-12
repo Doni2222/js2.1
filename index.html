@@ -1,57 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <button type="button" class="btn btn-primary">Primary</button>
-<button type="button" class="btn btn-secondary">Secondary</button>
-<button type="button" class="btn btn-success">Success</button>
-<button type="button" class="btn btn-danger">Danger</button>
-<button type="button" class="btn btn-warning">Warning</button>
-<button type="button" class="btn btn-info">Info</button>
-<button type="button" class="btn btn-light">Light</button>
-<button type="button" class="btn btn-dark">Dark</button>
 
-<button type="button" class="btn btn-link">Link</button>
-
-
-<button type="button" class="btn btn-outline-primary">Primary</button>
-<button type="button" class="btn btn-outline-secondary">Secondary</button>
-<button type="button" class="btn btn-outline-success">Success</button>
-<button type="button" class="btn btn-outline-danger">Danger</button>
-<button type="button" class="btn btn-outline-warning">Warning</button>
-<button type="button" class="btn btn-outline-info">Info</button>
-<button type="button" class="btn btn-outline-light">Light</button>
-<button type="button" class="btn btn-outline-dark">Dark</button>
-
-
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://softech.kg/image/cache/184de0d8980d2ff3611c096fa46c3e80.jpg" class="d-block w-100" alt="...">
+  <div class="container">
+    <div class="content">
+      <div class="img">
+        <img src="bootstrap-logo2.png" alt="">
       </div>
-      <div class="carousel-item">
-        <img src="https://softech.kg/image/cache/3c4cbd1eebcdd4ff658abec119892d03.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="https://softech.kg/image/cache/3c0b1a1f7ffef19d3e17074e0d949e77.jpg" class="d-block w-100" alt="...">
+      <div class="h">
+        <h2 class="h2">Log in to your account</h2>
+        <h4 class="h4">Welcome back! Please enter your details.</h4>
+        <h5 class="h5">Email</h5>    
+  <div class="input-group mb-3">
+       <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  </div>
+  <div><h5 class="pw">Password</h5></div>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+</div>
+<form>
+  <input id="html" class="chexbox" type="checkbox">
+  <label for="html">Rememer me</label>
+  <span class="forgot"><a href="#">Forgot password</a></span>
+ </form>
+   <div class="sign">
+   <span bg> <h4 class="in"><a href="#" class="href">Sign in</a></h4> </span>
+   </div>
+   </div>
+    <a href="#" class="google-signin-btn">
+      <img src="icon-google.svg" alt="Google icon">
+       Sign in with Google
+    </a>
+    <div class="signup-container">
+    <h4 class="ff">Don't have an account? </h4> <a href="#">Sign up</a>
+  </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</div>
+  </div>
+
+
+
+
+
+
+
+
+     <script src="app.js"></script>
+ 
 </body>
 </html>
